@@ -1,4 +1,5 @@
 ---
+title: 关于我
 icon: circle-info
 cover: /assets/image/about_me.jpg
 article: false
@@ -7,6 +8,8 @@ author: false
 pageInfo: false
 pageview: false
 contributors: false
+toc: false
+breadcrumb: false
 ---
 
 ## Who am I
