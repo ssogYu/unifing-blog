@@ -3,14 +3,14 @@ home: true
 layout: BlogHome
 icon: home
 title: ssogYu'blog
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: ssogYu'blog
-tagline: 用技术改变世界
+# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroText: ''
+# tagline: 用技术改变世界
 heroFullScreen: true
-# bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-# bgImageStyle:
-#   background-attachment: fixed
+bgImage: /assets/image/home.jpg
+bgImageDark: /assets/image/dark.jpg
+bgImageStyle:
+  background-attachment: fixed
 # projects:
 #   - icon: project
 #     name: 项目名称
