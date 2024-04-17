@@ -7,17 +7,36 @@ export const zhNavbar = navbar([
     icon: "home",
   },
   {
-    text: "前端开发",
-    icon: "frontend",
-    prefix: "/frontend/",
-    link: "/frontend/README.md",
+    text: "应用开发",
+    icon: "develop",
+    children: [
+      {
+        text: "前端",
+        icon: "frontend",
+        prefix: "/frontend/",
+        link: "/frontend/README.md",
+      },
+      {
+        text: "后端",
+        icon: "backend",
+        prefix: "/backend/",
+        link: "/backend/README.md",
+      },
+    ],
   },
   {
-    text: "后端开发",
-    icon: "backend",
-    prefix: "/backend/",
-    link: "/backend/README.md",
+    text: "随笔",
+    icon: "essay",
+    prefix: "/essay/",
+    link: "/essay/README.md",
   },
+  {
+    text: "工具",
+    icon: "tool",
+    prefix: "/tool/",
+    link: "/tool/README.md",
+  },
+
   {
     text: "关于我",
     icon: "about-me",

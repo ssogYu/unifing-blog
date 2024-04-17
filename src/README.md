@@ -4,8 +4,8 @@ layout: BlogHome
 icon: home
 title: ssogYu'blog
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-heroText: ''
-# tagline: 用技术改变世界
+heroText: '❤️读书 · 买花 · 长大❤️'
+tagline: 用技术改变世界
 heroFullScreen: true
 bgImage: /assets/image/home.jpg
 bgImageDark: /assets/image/dark.jpg
