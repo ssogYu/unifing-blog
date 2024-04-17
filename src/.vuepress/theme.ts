@@ -55,6 +55,7 @@ export default hopeTheme({
     roundAvatar: true,
     description: "读书 ❤️ 买花 ❤️ 长大",
     intro: "/intro.html",
+    // sidebarDisplay: "always",
     medias: {
       GitHub: "https://github.com/ssogYu",
       // Baidu: "https://example.com",

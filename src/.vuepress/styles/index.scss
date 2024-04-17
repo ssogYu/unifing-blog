@@ -1,1 +1,15 @@
 // place your custom styles here
+#app {
+  //css变量覆盖
+  --theme-color-light: #fba56f;
+  --theme-color-dark: #fba56f;
+
+  .blog-page-wrapper {
+    flex-direction: row-reverse;
+
+    .vp-blog-info-wrapper {
+      margin-inline-start: 0;
+      margin-inline-end: 1rem;
+    }
+  }
+}
