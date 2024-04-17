@@ -57,5 +57,5 @@ actions:
 #         link: https://theme-hope.vuejs.press/guide/interface/others.html
 
 copyright: false
-footer: Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, Copyright © 2024-present ssogYu
+footer: Copyright © 2024-present ssogYu，All Rights Reserved <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024044813号-1</a> <br/>Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, 
 ---

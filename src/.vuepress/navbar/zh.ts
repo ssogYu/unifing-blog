@@ -3,14 +3,14 @@ import { navbar } from "vuepress-theme-hope";
 export const zhNavbar = navbar([
   {
     text: "前端开发",
-    icon: "lightbulb",
+    icon: "frontend",
     prefix: "/frontend/",
-    link:"/frontend/README.md"
+    link: "/frontend/README.md",
   },
   {
     text: "后端开发",
-    icon: "lightbulb",
+    icon: "backend",
     prefix: "/backend/",
-    link:"/backend/README.md"
-  }
+    link: "/backend/README.md",
+  },
 ]);

@@ -10,7 +10,7 @@ export default hopeTheme({
     email: "1969728361@qq.com",
   },
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "//at.alicdn.com/t/c/font_4507368_hktuuaoobxk.css",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
@@ -31,11 +31,19 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime","Word","PageView"],
+  pageInfo: [
+    "Author",
+    "Original",
+    "Date",
+    "Category",
+    "Tag",
+    "ReadingTime",
+    "Word",
+  ],
 
   lastUpdated: true,
 
-  editLink:true,
+  editLink: true,
 
   toc: true,
 
@@ -51,7 +59,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard","BiliBili"],
+      components: ["Badge", "VPCard", "BiliBili"],
     },
 
     mdEnhance: {
