@@ -2,6 +2,11 @@
 icon: circle-info
 cover: /assets/image/about_me.jpg
 article: false
+lastUpdated: false
+author: false
+pageInfo: false
+pageview: false
+contributors: false
 ---
 
 ## Who am I
