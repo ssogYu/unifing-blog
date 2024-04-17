@@ -1,60 +1,46 @@
 ---
 home: true
+layout: BlogHome
 icon: home
 title: ssogYu'blog
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
-bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
-bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
-heroFullScreen: true
-bgImageStyle:
-  background-attachment: fixed
 heroText: ssogYu'blog
 tagline: 用技术改变世界
-actions:
-  - text: start
-    icon: lightbulb
-    link: ./frontend/
-    type: primary
+heroFullScreen: true
+# bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
+# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
+# bgImageStyle:
+#   background-attachment: fixed
+# projects:
+#   - icon: project
+#     name: 项目名称
+#     desc: 项目详细描述
+#     link: https://你的项目链接
 
-# highlights:
-#   - header: Easy to install
-#     image: /assets/image/box.svg
-#     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
-#     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-#     highlights:
-#       - title: Run <code>pnpm create vuepress-theme-hope hope-project</code> to create a new project with this theme.
-#       - title: Run <code>pnpm create vuepress-theme-hope add .</code> in your project root to create a new project with this theme.
+#   - icon: link
+#     name: 链接名称
+#     desc: 链接详细描述
+#     link: https://链接地址
 
-#   - header: Improved layouts
-#     description: An awesome responsive layout with full a11y support.
-#     image: /assets/image/layout.svg
-#     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-#     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-#     highlights:
-#       - title: Layout
-#         icon: object-group
-#         details: Improved navbar, sidebar, page nav and new breadcrumb, footer and toc. We also bring you a brand new homepage.
-#         link: https://theme-hope.vuejs.press/guide/layout/
+#   - icon: book
+#     name: 书籍名称
+#     desc: 书籍详细描述
+#     link: https://你的书籍链接
 
-#       - title: Dark Mode
-#         icon: circle-half-stroke
-#         details: Switch between light and dark modes freely
-#         link: https://theme-hope.vuejs.press/guide/interface/darkmode.html
+#   - icon: article
+#     name: 文章名称
+#     desc: 文章详细描述
+#     link: https://你的文章链接
 
-#       - title: Customizable Theme Color
-#         icon: palette
-#         details: Customize theme color
-#         link: https://theme-hope.vuejs.press/guide/interface/theme-color.html
+#   - icon: friend
+#     name: 伙伴名称
+#     desc: 伙伴详细介绍
+#     link: https://你的伙伴链接
 
-#       - title: Slide Page
-#         icon: person-chalkboard
-#         details: Adding slide pages to display things you like
-#         link: https://theme-hope.vuejs.press/guide/layout/slides
-
-#       - title: More
-#         icon: ellipsis
-#         details: RTL layout, print support, fullscreen button, etc.
-#         link: https://theme-hope.vuejs.press/guide/interface/others.html
+#   - icon: https://theme-hope-assets.vuejs.press/logo.svg
+#     name: 自定义项目
+#     desc: 自定义详细介绍
+#     link: https://你的自定义链接
 
 copyright: false
 footer: Copyright © 2024-present ssogYu，All Rights Reserved <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024044813号-1</a> <br/>Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, 

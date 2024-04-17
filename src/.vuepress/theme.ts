@@ -3,20 +3,20 @@ import { zhNavbar } from "./navbar/index.js";
 import { zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "http://47.100.82.151",
+  hostname: "http://tankswift.top",
   author: {
     name: "ssogYu",
-    url: "",
-    email: "1969728361@qq.com",
+    url: "http://tankswift.top",
+    email: "yushunsong@126.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4507368_hktuuaoobxk.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4507368_p7jmto9rkf.css",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
   repo: "",
 
-  docsDir: "",
+  docsDir: "src",
 
   navbar: zhNavbar,
 
@@ -49,14 +49,52 @@ export default hopeTheme({
 
   fullscreen: true,
 
+  // 博客相关
+  blog: {
+    avatar: "/assets/image/avatar.jpg",
+    roundAvatar: true,
+    description: "读书 ❤️ 买花 ❤️ 长大",
+    intro: "/intro.html",
+    medias: {
+      GitHub: "https://github.com/ssogYu",
+      // Baidu: "https://example.com",
+      // BiliBili: "https://example.com",
+      // Bitbucket: "https://example.com",
+      // Dingding: "https://example.com",
+      // Discord: "https://example.com",
+      // Dribbble: "https://example.com",
+      // Email: "mailto:info@example.com",
+      // Evernote: "https://example.com",
+      // Facebook: "https://example.com",
+      // Flipboard: "https://example.com",
+      // Gitee: "https://example.com",
+      // Gitlab: "https://example.com",
+      // Gmail: "mailto:info@example.com",
+      // Instagram: "https://example.com",
+      // Lark: "https://example.com",
+      // Lines: "https://example.com",
+      // Linkedin: "https://example.com",
+      // Pinterest: "https://example.com",
+      // Pocket: "https://example.com",
+      // QQ: "https://example.com",
+      // Qzone: "https://example.com",
+      // Reddit: "https://example.com",
+      // Rss: "https://example.com",
+      // Steam: "https://example.com",
+      // Twitter: "https://example.com",
+      // Wechat: "https://example.com",
+      // Weibo: "https://example.com",
+      // Whatsapp: "https://example.com",
+      // Youtube: "https://example.com",
+      // Zhihu: "https://example.com",
+    },
+  },
+  hotReload: true,
+
   plugins: {
-    // comment: {
-    //   provider: "Giscus",
-    //   repo: "vuepress-theme-hope/giscus-discussions",
-    //   repoId: "R_kgDOG_Pt2A",
-    //   category: "Announcements",
-    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
-    // },
+    blog: true,
+
+    searchPro: true,
 
     components: {
       components: ["Badge", "VPCard", "BiliBili"],
@@ -131,7 +169,13 @@ export default hopeTheme({
       // sandpack: true,
     },
 
-    searchPro: true,
+    // comment: {
+    //   provider: "Giscus",
+    //   repo: "vuepress-theme-hope/giscus-discussions",
+    //   repoId: "R_kgDOG_Pt2A",
+    //   category: "Announcements",
+    //   categoryId: "DIC_kwDOG_Pt2M4COD69",
+    // },
 
     // copyright: {
     //   global: true,

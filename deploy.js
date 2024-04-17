@@ -1,14 +1,3 @@
----
-title: 前端资源自动打包上传服务器
-tag: 
-  - 前端工程化
-article: true
-sticky:
----
-文章的摘要
-<!-- more -->
-#### 1. 创建deploy.js
-```javascript
 const scpClient = require("scp2");
 const ora = require("ora");
 const chalk = require("chalk");
@@ -16,18 +5,17 @@ const spinner = ora("正在发布到生产服务器...");
 
 //服务器相关配置
 const server = {
-  host: ip,
-  port: 端口,
-  username: 服务器名称,
-  password: 密码,
-  path: 路径,
+  host: "47.100.82.151",
+  port: 22,
+  username: "root",
+  password: "yss19950516&",
+  path: "/root/blog",
 };
 
 var Client = require("ssh2").Client;
 var conn = new Client();
 conn
   .on("ready", function () {
-    console.log(chalk.green("准备删除文件" + server.path + ".\n"));
     conn.exec("rm -rf " + server.path, function (err, stream) {
       if (err) {
         console.log(chalk.red(err));
@@ -39,7 +27,7 @@ conn
             conn.end();
           } else {
             spinner.start();
-            scpClient.scp("public/", server, function (err3) {
+            scpClient.scp("build/", server, function (err3) {
               spinner.stop();
               if (err) {
                 console.log(err3);
@@ -68,19 +56,3 @@ conn
     username: server.username,
     password: server.password,
   });
-
-```
-#### 2. package.json添加打包脚本
-```javascript
-"deploy": "npm run build && node deploy"
-```
-
-::: tip
-注意scp2、ora、chalk、ssh2版本，高版本不支持require引入推荐版本：
-```
-"chalk": "^4.1.2",
-"ora": "^5.1.0",
-"scp2": "^0.5.0",
-"ssh2": "^1.15.0"
-```
-:::
