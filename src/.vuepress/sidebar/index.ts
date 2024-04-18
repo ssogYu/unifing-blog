@@ -18,4 +18,10 @@ export const zhSidebar = sidebar({
     },
   ],
   "/backend/": "structure",
+  "/tool": [
+    {
+      text: "vpn使用流程",
+      link: "/tool/vpn",
+    },
+  ],
 });
