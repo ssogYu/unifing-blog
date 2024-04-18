@@ -1,19 +1,22 @@
 ---
 title: vpn使用流程
 article: true
+tag: 
+  - chatgpt
+  - vpn
 category:
   - 工具
-  - vpn
-  - chatgpt
+sticky: false
 ---
-
+vpn资源
+<!-- more -->
 ## 什么是 vpn
 
 国内无法直接访问国外站点，需借助 vpn 正向代理，才可以访问到国外网站
 
 ## 如何搭建 vpn
 
-最简单的方法是直接使用市面集成好的方案，步骤如下：
+最简单的方式使用第三方集成好的方案，步骤如下：
 
 <b>步骤 1：手机/电脑 下载 vpn 节点服务连接软件</b>
 
