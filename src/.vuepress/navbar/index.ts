@@ -7,6 +7,12 @@ export const zhNavbar = navbar([
     icon: "home",
   },
   {
+    text: "日志",
+    icon: "weekly",
+    prefix: "/weekly/",
+    link: "/weekly/README.md",
+  },
+  {
     text: "应用开发",
     icon: "develop",
     children: [
