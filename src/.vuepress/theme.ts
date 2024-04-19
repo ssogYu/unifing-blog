@@ -24,8 +24,7 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      // "/demo/encrypt.html": ["1234"],
-      // "/zh/demo/encrypt.html": ["1234"],
+      "/essay": ["1234"],
     },
   },
 
