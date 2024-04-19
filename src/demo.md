@@ -9,7 +9,6 @@ article: false
 sticky: false #置顶设置，支持数字
 star: false #星标
 cover: /assets/image/cover3.jpg
-
 ---
 文章的摘要
 <!-- more -->

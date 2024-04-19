@@ -6,7 +6,7 @@ title: ssogYu'blog
 # heroImage: https://theme-hope-assets.vuejs.press/logo.svg
 heroText: '❤️读书 · 买花 · 长大❤️'
 tagline: 用技术改变世界
-heroFullScreen: true
+heroFullScreen: false
 bgImage: /assets/image/home.jpg
 bgImageDark: /assets/image/dark.jpg
 bgImageStyle:
