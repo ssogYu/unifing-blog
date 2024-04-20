@@ -120,3 +120,6 @@ VuePress Theme Hope ==非常== 强大!
 ![img](/assets/image/article.jpg)
 
 [img](/assets/image/article.jpg)
+
+<!-- emoji代码表 -->
+[地址](https://github.com/ikatyang/emoji-cheat-sheet)

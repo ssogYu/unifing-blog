@@ -42,7 +42,12 @@ export const zhNavbar = navbar([
     prefix: "/tool/",
     link: "/tool/README.md",
   },
-
+  {
+    text: "AI",
+    icon: "ai",
+    prefix: "/ai/",
+    link: "/ai/README.md",
+  },
   {
     text: "关于我",
     icon: "about-me",
