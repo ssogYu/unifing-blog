@@ -24,4 +24,5 @@ export const zhSidebar = sidebar({
       link: "/tool/vpn",
     },
   ],
+  "essay":['驾校选择.md']
 });
