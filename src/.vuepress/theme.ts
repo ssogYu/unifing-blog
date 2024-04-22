@@ -24,7 +24,7 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      "/essay": ["1234"],
+      "/essay": ["yss199605164411"],
     },
   },
 
@@ -112,7 +112,7 @@ export default hopeTheme({
       include: true,
       mark: true,
       alert: true,
-      footnote:true,
+      footnote: true,
       stylize: [
         {
           matcher: "Recommended",

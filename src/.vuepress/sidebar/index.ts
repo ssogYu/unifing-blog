@@ -14,7 +14,7 @@ export const zhSidebar = sidebar({
       link: "/frontend/fonttend-construct/",
       prefix: "/frontend/fonttend-construct/",
       collapsible: true,
-      children: ["前端资源自动打包上传服务器.md"],
+      children: ["前端资源自动打包上传服务器.md", "verdaccio部署和使用.md"],
     },
     {
       text: "前端方案",
