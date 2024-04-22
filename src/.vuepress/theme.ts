@@ -10,7 +10,7 @@ export default hopeTheme({
     email: "yushunsong@126.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4507368_hq1ld7vqinr.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4507368_q41fsfxkgw.css",
 
   logo: "/logo.png",
 
