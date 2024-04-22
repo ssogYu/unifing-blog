@@ -16,6 +16,13 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: ["前端资源自动打包上传服务器.md"],
     },
+    {
+      text: "前端方案",
+      link: "/frontend/scheme/",
+      prefix: "/frontend/scheme/",
+      collapsible: true,
+      children: ["JSON.parse实现.md"],
+    },
   ],
   "/backend/": "structure",
   "/tool/": [
@@ -24,5 +31,5 @@ export const zhSidebar = sidebar({
       link: "/tool/vpn",
     },
   ],
-  "essay":['驾校选择.md']
+  essay: ["驾校选择.md"],
 });
