@@ -37,21 +37,21 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text:'更多',
-    icon:'more',
-    children:[
+    text: "更多",
+    icon: "more",
+    children: [
       {
         text: "工具",
         icon: "tool",
         prefix: "/tool/",
         link: "/tool/README.md",
       },
-      {
-        text: "经验",
-        icon: "experience",
-        prefix: "/experience/",
-        link: "/experience/README.md",
-      },
+      // {
+      //   text: "经验",
+      //   icon: "experience",
+      //   prefix: "/experience/",
+      //   link: "/experience/README.md",
+      // },
       {
         text: "随笔",
         icon: "essay",
@@ -64,7 +64,7 @@ export const zhNavbar = navbar([
         prefix: "/ai/",
         link: "/ai/README.md",
       },
-    ]
+    ],
   },
   {
     text: "关于我",

@@ -30,7 +30,7 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  darkmode:'disable',
+  darkmode: "disable",
 
   pageInfo: [
     "Author",

@@ -12,14 +12,14 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.9",
+    "chalk": "^4.1.2",
+    "ora": "^5.1.0",
     "rimraf": "^5.0.5",
+    "scp2": "^0.5.0",
+    "ssh2": "^1.15.0",
     "vue": "^3.4.21",
     "vuepress": "2.0.0-rc.9",
     "vuepress-plugin-search-pro": "^2.0.0-rc.36",
-    "vuepress-theme-hope": "2.0.0-rc.36",
-    "chalk": "^4.1.2",
-    "ora": "^5.1.0",
-    "scp2": "^0.5.0",
-    "ssh2": "^1.15.0"
+    "vuepress-theme-hope": "2.0.0-rc.36"
   }
 }
