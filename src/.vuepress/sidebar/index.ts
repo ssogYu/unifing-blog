@@ -21,7 +21,7 @@ export const zhSidebar = sidebar({
       link: "/frontend/scheme/",
       prefix: "/frontend/scheme/",
       collapsible: true,
-      children: ["JSON.parse实现.md"],
+      children: ["前端主题换肤方案.md"],
     },
   ],
   "/backend/": "structure",
@@ -32,6 +32,6 @@ export const zhSidebar = sidebar({
     },
   ],
   "/essay/": "structure",
-  "/experience/":"structure",
-  "/read/": "structure"
+  "/experience/": "structure",
+  "/read/": "structure",
 });
