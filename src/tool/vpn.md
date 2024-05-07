@@ -1,6 +1,6 @@
 ---
 title: vpn使用流程
-article: true
+article: false
 tag: 
   - chatgpt
   - vpn

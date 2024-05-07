@@ -19,7 +19,7 @@ export const zhNavbar = navbar([
   //   link: "/read/README.md",
   // },
   {
-    text: "技术分享",
+    text: "技术积累",
     icon: "develop",
     children: [
       {
