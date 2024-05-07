@@ -12,12 +12,12 @@ export const zhNavbar = navbar([
     prefix: "/weekly/",
     link: "/weekly/README.md",
   },
-  {
-    text: "读书",
-    icon: "read",
-    prefix: "/read/",
-    link: "/read/README.md",
-  },
+  // {
+  //   text: "读书",
+  //   icon: "read",
+  //   prefix: "/read/",
+  //   link: "/read/README.md",
+  // },
   {
     text: "技术分享",
     icon: "develop",
@@ -37,6 +37,12 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "随笔",
+    icon: "essay",
+    prefix: "/essay/",
+    link: "/essay/README.md",
+  },
+  {
     text: "更多",
     icon: "more",
     children: [
@@ -46,23 +52,11 @@ export const zhNavbar = navbar([
         prefix: "/tool/",
         link: "/tool/README.md",
       },
-      // {
-      //   text: "经验",
-      //   icon: "experience",
-      //   prefix: "/experience/",
-      //   link: "/experience/README.md",
-      // },
       {
-        text: "随笔",
-        icon: "essay",
-        prefix: "/essay/",
-        link: "/essay/README.md",
-      },
-      {
-        text: "AI",
-        icon: "ai",
-        prefix: "/ai/",
-        link: "/ai/README.md",
+        text: "经验",
+        icon: "experience",
+        prefix: "/experience/",
+        link: "/experience/README.md",
       },
     ],
   },

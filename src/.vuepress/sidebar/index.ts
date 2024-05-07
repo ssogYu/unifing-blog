@@ -23,8 +23,27 @@ export const zhSidebar = sidebar({
       collapsible: true,
       children: ["前端主题换肤方案.md"],
     },
+    {
+      text: "React",
+      link: "/frontend/React/",
+      prefix: "/frontend/React/",
+      collapsible: true,
+    },
   ],
-  "/backend/": "structure",
+  "/backend/": [
+    {
+      text: "NestJS",
+      link: "/backend/nestjs/",
+      prefix: "/backend/nestjs/",
+      collapsible: true,
+    },
+    {
+      text: "Nginx",
+      link: "/backend/nginx/",
+      prefix: "/backend/nginx/",
+      collapsible: true,
+    },
+  ],
   "/tool/": [
     {
       text: "vpn使用流程",
