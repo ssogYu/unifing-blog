@@ -24,11 +24,11 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      "/essay": ["yss199605164411"],
-      "/photograph/landscape": ["yss199605164411"],
-      "/photograph/travel": ["yss199605164411"],
-      "/photograph/character": ["yss199605164411"],
-      "/photograph/collection": ["yss199605164411"],
+      "/essay": ["yss199505164411"],
+      "/photograph/landscape": ["yss199505164411"],
+      "/photograph/travel": ["yss199505164411"],
+      "/photograph/character": ["yss199505164411"],
+      "/photograph/collection": ["yss199505164411"],
     },
   },
 
@@ -69,7 +69,7 @@ export default hopeTheme({
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      // Email: "mailto:info@example.com",
+      Email: "mailto:yushunsong@126.com",
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -82,7 +82,7 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      // QQ: "https://example.com",
+      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1969728361&site=qq&menu=yes",
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
@@ -92,7 +92,7 @@ export default hopeTheme({
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
-      // Zhihu: "https://example.com",
+      Zhihu: "https://www.zhihu.com/people/tank-99-47",
     },
     timeline: "白驹过隙",
   },
