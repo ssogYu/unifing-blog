@@ -12,4 +12,11 @@
       margin-inline-end: 1rem;
     }
   }
+  .vp-blog-hero-image {
+    border-radius: 200px;
+  }
+  .vp-catalog-child-title,
+  .vp-catalog-sub-title {
+    color: var(--theme-color);
+  }
 }

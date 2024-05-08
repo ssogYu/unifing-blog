@@ -3,10 +3,10 @@ home: true
 layout: BlogHome
 icon: home
 title: ssogYu'blog
-# heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage: /assets/image/avatar.jpg
 heroText: '❤️读书 · 买花 · 长大❤️'
 tagline: 用技术改变世界
-heroFullScreen: false
+heroFullScreen: true
 bgImage: /assets/image/home.jpg
 bgImageDark: /assets/image/dark.jpg
 bgImageStyle:
@@ -43,5 +43,6 @@ bgImageStyle:
 #     link: https://你的自定义链接
 
 copyright: false
-footer: Copyright © 2024-present ssogYu，All Rights Reserved <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024044813号-1</a> <br/>Theme by <a href="https://theme-hope.vuejs.press/" target="_blank">VuePress Theme Hope</a> | MIT Licensed, 
+footer: Copyright © 2024-present ssogYu，All Rights Reserved <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024044813号-1</a> 
 ---
+<VidStack src="/assets/music/七里香.mp3" title="音频播放" autoplay/>

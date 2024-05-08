@@ -12,6 +12,12 @@ export const zhNavbar = navbar([
     prefix: "/weekly/",
     link: "/weekly/README.md",
   },
+  {
+    text: "摄影集",
+    icon: "photograph",
+    prefix: "/photograph/",
+    link: "/photograph/README.md",
+  },
   // {
   //   text: "读书",
   //   icon: "read",
@@ -19,7 +25,7 @@ export const zhNavbar = navbar([
   //   link: "/read/README.md",
   // },
   {
-    text: "技术积累",
+    text: "技术分享",
     icon: "develop",
     children: [
       {
@@ -37,7 +43,7 @@ export const zhNavbar = navbar([
     ],
   },
   {
-    text: "随笔",
+    text: "随笔/读书",
     icon: "essay",
     prefix: "/essay/",
     link: "/essay/README.md",

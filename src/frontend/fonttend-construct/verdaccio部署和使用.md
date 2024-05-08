@@ -5,7 +5,7 @@ tag:
   - npm
 category:
   - 前端开发
-article: false
+article: true
 sticky: false
 ---
 Verdaccio 是一个轻量级的 npm 私有仓库的开源解决方案 使用Verdaccio搭建私有包仓库

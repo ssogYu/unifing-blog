@@ -10,7 +10,7 @@ export default hopeTheme({
     email: "yushunsong@126.com",
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4507368_q41fsfxkgw.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4507368_s32ojujvtm9.css",
 
   logo: "/logo.png",
 
@@ -25,12 +25,16 @@ export default hopeTheme({
   encrypt: {
     config: {
       "/essay": ["yss199605164411"],
+      "/photograph/landscape": ["yss199605164411"],
+      "/photograph/travel": ["yss199605164411"],
+      "/photograph/character": ["yss199605164411"],
+      "/photograph/collection": ["yss199605164411"],
     },
   },
 
   displayFooter: true,
 
-  darkmode: "disable",
+  // darkmode: "disable",
 
   pageInfo: [
     "Author",
@@ -90,6 +94,7 @@ export default hopeTheme({
       // Youtube: "https://example.com",
       // Zhihu: "https://example.com",
     },
+    timeline: "白驹过隙",
   },
   hotReload: true,
 
@@ -99,7 +104,7 @@ export default hopeTheme({
     searchPro: true,
 
     components: {
-      components: ["Badge", "VPCard", "BiliBili"],
+      components: ["Badge", "VPCard", "BiliBili", "VidStack"],
     },
 
     mdEnhance: {

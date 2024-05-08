@@ -1,5 +1,5 @@
 ---
-title: vpn使用流程
+title: vpn资源
 article: false
 tag: 
   - chatgpt

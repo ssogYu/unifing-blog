@@ -1,8 +1,9 @@
 ---
 title: React Hook
-article: false
+article: true
 ---
-
+react hook 使用和介绍
+<!-- more -->
 ## **什么是hook**
 Hooks 是 React 16.8 版本出现的特性，它是诸如 useState、useEffect 等一系列钩子函数。Hooks 的出现开发者在不需要写 class 组件时，也能具有 state 和其他 React 特性，函数组件从 stateless 变成 stateful。
 - 告别复杂的 class 组件
@@ -118,7 +119,62 @@ export default function C() {
 :::
 
 ::: details useReducer
-useState
+useReducer作为useState的一种替代方案： 在某些场景下，如果state的处理逻辑比较复杂，我们可以通过useReducer来对其进行拆分，当 state 的计算逻辑比较复杂又或者需要根据以前的值来计算时，使用这个 Hook 比useState会更好
+
+案例
+```js
+import { useReducer } from "react";
+const initialState = [
+  { id: 1, name: "张三" },
+  { id: 2, name: "李四" },
+];
+
+const reducer = (state: any, { type, payload }: any) => {
+  switch (type) {
+    case "add":
+      return [...state, payload];
+    case "remove":
+      return state.filter((item: any) => item.id !== payload.id);
+    case "update":
+      return state.map((item: any) =>
+        item.id === payload.id ? { ...item, ...payload } : item
+      );
+    case "clear":
+      return [];
+    default:
+      throw new Error();
+  }
+};
+
+const List = () => {
+  const [state, dispatch] = useReducer(reducer, initialState);
+  return (
+    <>
+      List: {JSON.stringify(state)}
+      <button
+        onClick={() =>
+          dispatch({ type: "add", payload: { id: 3, name: "周五" } })
+        }
+      >
+        add
+      </button>
+      <button onClick={() => dispatch({ type: "remove", payload: { id: 1 } })}>
+        remove
+      </button>
+      <button
+        onClick={() =>
+          dispatch({ type: "update", payload: { id: 2, name: "李四-update" } })
+        }
+      >
+        update
+      </button>
+      <button onClick={() => dispatch({ type: "clear" })}>clear</button>
+    </>
+  );
+};
+export default List;
+
+```
 :::
 
 ::: details useCallback & useMemo & React.memo
