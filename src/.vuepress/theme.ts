@@ -28,7 +28,6 @@ export default hopeTheme({
       "/photograph/landscape": ["yss199505164411"],
       "/photograph/travel": ["yss199505164411"],
       "/photograph/character": ["yss199505164411"],
-      "/photograph/collection": ["yss199505164411"],
     },
   },
 

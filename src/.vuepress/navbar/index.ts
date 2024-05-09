@@ -58,12 +58,6 @@ export const zhNavbar = navbar([
         prefix: "/tool/",
         link: "/tool/README.md",
       },
-      {
-        text: "经验",
-        icon: "experience",
-        prefix: "/experience/",
-        link: "/experience/README.md",
-      },
     ],
   },
   {

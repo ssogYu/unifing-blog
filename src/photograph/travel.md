@@ -1,4 +1,4 @@
 ---
-title: 旅游随拍
+title: 旅游记
 article: false
 ---

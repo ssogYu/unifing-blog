@@ -6,7 +6,7 @@ title: ssogYu'blog
 heroImage: /assets/image/avatar.jpg
 heroText: '❤️读书 · 买花 · 长大❤️'
 tagline: 用技术改变世界
-heroFullScreen: true
+heroFullScreen: false
 bgImage: /assets/image/home.jpg
 bgImageDark: /assets/image/dark.jpg
 bgImageStyle:
@@ -45,4 +45,3 @@ bgImageStyle:
 copyright: false
 footer: Copyright © 2024-present ssogYu，All Rights Reserved <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024044813号-1</a> 
 ---
-<VidStack src="/assets/music/七里香.mp3" title="音频播放" autoplay/>

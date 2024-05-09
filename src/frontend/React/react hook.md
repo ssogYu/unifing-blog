@@ -178,7 +178,31 @@ export default List;
 :::
 
 ::: details useCallback & useMemo & React.memo
-useState
+### 1. useCallback
+原理：useCallback会返回一个函数的 memoized（记忆的）值，在依赖不变的情况下，它会返回相同的引用，避免子组件进行无意义的重复渲染。
+使用场景：用于性能优化，在将一个组件中的函数, 传递给子元素进行回调使用时, 使用useCallback对函数进行处理.同一组件中使用不会有性能优化作用。
+```js
+// 除非 `a` 或 `b` 改变，否则不会变
+const memoizedCallback = useCallback(
+  () => {
+   xxxx
+  },
+  [a, b],
+);
+
+```
+### 2. useMemo
+原理：useMemo返回的也是一个 memoized（记忆的）值，在依赖不变的情况下，多次定义的时候，返回的值是相同的。
+场景：useMemo复杂计算的应用，用于性能优化。
+```js
+// 除非 `a` 或 `b` 改变，否则memoData不会变,memoData的值就是value
+const memoData = useMemo(()=>{return value},[a,b])
+```
+```js
+useCallback(fn, deps) <==> useMemo(() => fn, deps)。
+```
+### 3. React.memo
+
 :::
 
 ::: details useRef & useImperativeHandle
