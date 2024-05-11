@@ -5,7 +5,7 @@ icon: home
 title: ssogYu'blog
 heroImage: /assets/image/avatar.jpg
 heroText: '❤️读书 · 买花 · 长大❤️'
-tagline: 用技术改变世界
+tagline: 用技术驱动世界
 heroFullScreen: false
 bgImage: /assets/image/home.jpg
 bgImageDark: /assets/image/dark.jpg

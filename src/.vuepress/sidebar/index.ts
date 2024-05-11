@@ -50,7 +50,7 @@ export const zhSidebar = sidebar({
       link: "/tool/vpn",
     },
   ],
-  "/essay/": "structure",
+  // "/essay/": "structure",
   "/experience/": "structure",
   "/read/": "structure",
 });

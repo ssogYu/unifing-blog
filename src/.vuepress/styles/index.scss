@@ -15,7 +15,9 @@
   .vp-blog-hero-image {
     border-radius: 200px;
   }
-  .vp-catalog-child-title,
+  .vp-catalog-child-title {
+    color: blue;
+  }
   .vp-catalog-sub-title {
     color: var(--theme-color);
   }

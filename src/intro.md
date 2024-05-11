@@ -15,11 +15,12 @@ breadcrumb: false
 ## Who am I
 Hello！❤️❤️ 我是ssogYu 这是我的blog
 
-## Blog
+## The purpose of my blog
 - 技术
 - 读书
 - 随笔
 - 分享
+- 记录
 
 ## Contact me
 - <b>github</b>：[直达](https://github.com/ssogYu)

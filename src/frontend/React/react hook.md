@@ -206,7 +206,54 @@ useCallback(fn, deps) <==> useMemo(() => fn, deps)。
 :::
 
 ::: details useRef & useImperativeHandle
-useState
+### 1. useRef
+useRef类似于React.createRef,但是并不完全一样，useRef 返回的 ref 对象在组件的整个生命周期内保持不变，也就是说每次重新渲染函数组件时，返回的ref 对象都是同一个（使用 React.createRef ，每次重新渲染组件都会重新创建 ref）
+- useRef 获取dom
+```js
+在类组件中：
+class App extends React.Component {
+  refInput = React.createRef();
+  componentDidMount() {
+    this.refInput.current && this.refInput.current.focus();
+  }
+  render() {
+    return <input ref={this.refInput} />;
+  }
+}
+在函数组件中使用：
+  访问dom：
+    const Index = () => {
+      const inputEl = useRef(null);
+      const handleFocus = () => {
+        inputEl.current.focus();
+      };
+      return (
+        <>
+          <input ref={inputEl} type="text" />
+          <button onClick={handleFocus}>Focus</button>
+        </>
+      );
+  };
+  访问组件：（通过forwardRef可以将ref转发到子组件）
+    const Index = () => {
+    const inputEl = useRef(null);
+    const handleFocus = () => {
+      inputEl.current.focus();
+    };
+    return (
+        <>
+          <Child ref={inputEl} />
+          <button onClick={handleFocus}>Focus</button>
+        </>
+      );
+    };
+    const Child = forwardRef((props, ref) => {
+      return <input ref={ref} />;
+    });
+```
+- useRef 缓存数据
+
+### 1. useImperativeHandle
 :::
 
 

@@ -24,7 +24,7 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      "/essay": ["yss199505164411"],
+      // "/essay": ["yss199505164411"],
       "/photograph/landscape": ["yss199505164411"],
       "/photograph/travel": ["yss199505164411"],
       "/photograph/character": ["yss199505164411"],
@@ -33,7 +33,7 @@ export default hopeTheme({
 
   displayFooter: true,
 
-  // darkmode: "disable",
+  darkmode: "toggle",
 
   pageInfo: [
     "Author",
