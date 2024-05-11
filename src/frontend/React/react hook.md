@@ -252,8 +252,41 @@ class App extends React.Component {
     });
 ```
 - useRef 缓存数据
+使用useRef保存数据，在整个生命周期内都是不变，不会因为组件更新重置，同时改变也不会触发组件更新。
 
-### 1. useImperativeHandle
+### 2. useImperativeHandle
+useImperativeHandle可以让你在使用ref时自定义暴露给父组件的实例值（典型的应用是向上传递 func）。在大多数情况下，应当避免使用ref这样的命令式代码。useImperativeHandle应当与forwardRef一起使用。
+```js
+import React, { useRef, forwardRef, useImperativeHandle } from "react";
+//子：
+const JMInput = forwardRef((props, ref) => {
+  const inputRef2 = useRef();
+  // 作用: 减少父组件获取的DOM元素属性,只暴露给父组件需要用到的DOM方法
+  // 参数1: 父组件传递的ref属性
+  // 参数2: 返回一个对象,父组件通过ref.current调用对象中方法
+  useImperativeHandle(ref, () => ({
+    focus: () => {
+      inputRef2.current.focus();
+    },
+  }));
+  return <input type="text" ref={inputRef2} />;
+});
+//父：
+export default function ImperativeHandleDemo() {
+  // useImperativeHandle 主要作用:用于减少父组件中通过forward+useRef获取子组件DOM元素暴露的属性过多
+  // 为什么使用: 因为使用forward+useRef获取子函数式组件DOM时,获取到的dom属性暴露的太多了
+  // 解决: 使用uesImperativeHandle解决,在子函数式组件中定义父组件需要进行DOM操作,减少获取DOM暴露的属性过多
+  const inputRef1 = useRef();
+
+  return (
+    <div>
+      <button onClick={() => inputRef1.current.focus()}>聚焦</button>
+      <JMInput ref={inputRef1} />
+    </div>
+  );
+}
+
+```
 :::
 
 
