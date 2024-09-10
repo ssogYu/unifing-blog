@@ -1,22 +1,22 @@
-import { hopeTheme } from "vuepress-theme-hope";
-import { zhNavbar } from "./navbar/index.js";
-import { zhSidebar } from "./sidebar/index.js";
+import { hopeTheme } from 'vuepress-theme-hope';
+import { zhNavbar } from './navbar/index.js';
+import { zhSidebar } from './sidebar/index.js';
 
 export default hopeTheme({
-  hostname: "http://tankswift.top",
+  hostname: 'https://blog.tankswift.top',
   author: {
-    name: "ssogYu",
-    url: "http://tankswift.top",
-    email: "yushunsong@126.com",
+    name: 'ssogYu',
+    url: 'https://blog.tankswift.top',
+    email: 'yushunsong@126.com',
   },
 
-  iconAssets: "//at.alicdn.com/t/c/font_4507368_s32ojujvtm9.css",
+  iconAssets: '//at.alicdn.com/t/c/font_4507368_s32ojujvtm9.css',
 
-  logo: "/logo.png",
+  logo: '/logo.png',
 
-  repo: "",
+  repo: '',
 
-  docsDir: "src",
+  docsDir: 'src',
 
   navbar: zhNavbar,
 
@@ -24,25 +24,22 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      // "/essay": ["yss199505164411"],
-      "/photograph/landscape": ["yss199505164411"],
-      "/photograph/travel": ["yss199505164411"],
-      "/photograph/character": ["yss199505164411"],
+      '/essay': ['yss199505164411'],
     },
   },
 
   displayFooter: true,
 
-  darkmode: "toggle",
+  darkmode: 'toggle',
 
   pageInfo: [
-    "Author",
-    "Original",
-    "Date",
-    "Category",
-    "Tag",
-    "ReadingTime",
-    "Word",
+    'Author',
+    'Original',
+    'Date',
+    'Category',
+    'Tag',
+    'ReadingTime',
+    'Word',
   ],
 
   lastUpdated: true,
@@ -55,20 +52,20 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    avatar: "/assets/image/avatar.jpg",
+    avatar: '/assets/image/avatar.jpg',
     roundAvatar: true,
-    description: "读书 ❤️ 买花 ❤️ 长大",
-    intro: "/intro.html",
+    description: '读书 ❤️ 买花 ❤️ 长大',
+    intro: '/intro.html',
     // sidebarDisplay: "always",
     medias: {
-      GitHub: "https://github.com/ssogYu",
+      GitHub: 'https://github.com/ssogYu',
       // Baidu: "https://example.com",
       // BiliBili: "https://example.com",
       // Bitbucket: "https://example.com",
       // Dingding: "https://example.com",
       // Discord: "https://example.com",
       // Dribbble: "https://example.com",
-      Email: "mailto:yushunsong@126.com",
+      Email: 'mailto:yushunsong@126.com',
       // Evernote: "https://example.com",
       // Facebook: "https://example.com",
       // Flipboard: "https://example.com",
@@ -81,7 +78,7 @@ export default hopeTheme({
       // Linkedin: "https://example.com",
       // Pinterest: "https://example.com",
       // Pocket: "https://example.com",
-      QQ: "http://wpa.qq.com/msgrd?v=3&uin=1969728361&site=qq&menu=yes",
+      QQ: 'http://wpa.qq.com/msgrd?v=3&uin=1969728361&site=qq&menu=yes',
       // Qzone: "https://example.com",
       // Reddit: "https://example.com",
       // Rss: "https://example.com",
@@ -91,19 +88,18 @@ export default hopeTheme({
       // Weibo: "https://example.com",
       // Whatsapp: "https://example.com",
       // Youtube: "https://example.com",
-      Zhihu: "https://www.zhihu.com/people/tank-99-47",
+      Zhihu: 'https://www.zhihu.com/people/tank-99-47',
     },
-    timeline: "白驹过隙",
+    timeline: '白驹过隙',
   },
   hotReload: true,
-
   plugins: {
     blog: true,
-
+    photoSwipe: true,
     searchPro: true,
 
     components: {
-      components: ["Badge", "VPCard", "BiliBili", "VidStack"],
+      components: ['Badge', 'VPCard', 'BiliBili', 'VidStack'],
     },
 
     mdEnhance: {
@@ -121,13 +117,13 @@ export default hopeTheme({
       footnote: true,
       stylize: [
         {
-          matcher: "Recommended",
+          matcher: 'Recommended',
           replacer: ({ tag }) => {
-            if (tag === "em")
+            if (tag === 'em')
               return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
+                tag: 'Badge',
+                attrs: { type: 'tip' },
+                content: 'Recommended',
               };
           },
         },
@@ -246,5 +242,10 @@ export default hopeTheme({
     //     ],
     //   },
     // },
+  },
+  locales: {
+    '/ar/': {
+      rtl: true,
+    },
   },
 });

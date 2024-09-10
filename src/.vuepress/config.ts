@@ -1,15 +1,15 @@
-import { defineUserConfig } from "vuepress";
-import theme from "./theme.js";
+import { defineUserConfig } from 'vuepress';
+import theme from './theme.js';
 
 export default defineUserConfig({
-  base: "/",
-  lang: "zh-CN",
+  base: '/',
+  lang: 'zh-CN',
   title: "ssogYu'blog",
-  description: "技术分享",
-  dest: "build",
+  description: '技术分享',
+  dest: 'build',
   head: [
     [
-      "script",
+      'script',
       {},
       `var _hmt = _hmt || [];
       (function() {
