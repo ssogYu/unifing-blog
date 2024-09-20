@@ -123,3 +123,13 @@ VuePress Theme Hope ==非常== 强大!
 
 <!-- emoji代码表 -->
 [地址](https://github.com/ikatyang/emoji-cheat-sheet)
+
+
+<VPCard
+  title="Mr.Hope"
+  desc="Where there is light, there is hope"
+  logo="https://mister-hope.com/logo.svg"
+  link="https://mister-hope.com"
+  background="rgba(253, 230, 138, 0.15)"
+/>
+<VPBanner v-bind='{ title: "Mr.Hope", content: "Where there is light, there is hope", logo: "https://mister-hope.com/logo.svg", actions: [{ text: "Visit now", link:"https://mister-hope.com" }, { text: "Repo", link: "https://github/Mister-Hope/Mister-Hope.github.io", type: "default" }] }' />

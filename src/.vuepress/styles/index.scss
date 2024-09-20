@@ -21,4 +21,18 @@
   .vp-catalog-sub-title {
     color: var(--theme-color);
   }
+
+  .vp-card {
+    height: 100px;
+    width: 200px;
+    margin-bottom: 8px;
+    padding: 8px;
+
+    .vp-card-logo {
+      height: 100%;
+      width: 60px;
+      border-radius: 0%;
+      object-fit: contain;
+    }
+  }
 }

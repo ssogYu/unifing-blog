@@ -12,8 +12,8 @@ const server = {
   path: "/root/blog",
 };
 
-var Client = require("ssh2").Client;
-var conn = new Client();
+const Client = require("ssh2").Client;
+const conn = new Client();
 conn
   .on("ready", function () {
     conn.exec("rm -rf " + server.path, function (err, stream) {

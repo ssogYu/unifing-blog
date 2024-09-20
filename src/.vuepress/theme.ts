@@ -24,7 +24,7 @@ export default hopeTheme({
   //文章密码加密
   encrypt: {
     config: {
-      '/essay': ['yss199505164411'],
+      '/essay/thinking': ['yss199505164411'],
     },
   },
 
@@ -99,7 +99,20 @@ export default hopeTheme({
     searchPro: true,
 
     components: {
-      components: ['Badge', 'VPCard', 'BiliBili', 'VidStack'],
+      components: [
+        'ArtPlayer',
+        'Badge',
+        'BiliBili',
+        'CodePen',
+        'PDF',
+        'Share',
+        'SiteInfo',
+        'StackBlitz',
+        'VPBanner',
+        'VPCard',
+        'VidStack',
+        'XiGua',
+      ],
     },
 
     mdEnhance: {
